@@ -34,7 +34,7 @@
     A. - Like the <datalist> this element whith <option> element makes the lists of data that can be selected by user. Only one element of list can be selected.
 
 11. Q. - Tell in detail about the form elemente <tr>
-    A. - Defines a row of cells in a table.
+    A. - That is the table element, not form. Defines a row of cells in a table.
 
 12. Q. - Tell in detail about the form elemente <output>
     A. - Shows the results of the user actions or other web page actions.
