@@ -1,1 +1,43 @@
+1. Q. - What methods has attribute 'method'?
+    A. - The HTTP method that the browser uses to submit the form by user pressed submit button.
+         Possible values are:
+            post: sends encripted form data to the server.
+            get: sends open form data to the server.
 
+2. Q. - What do attribute 'target'?
+    A. - Define where the form content will be opened - the same window (frame) or the new window (frame)
+
+3. Q. - When we use attribute 'action'?
+    A. - Define where the form content will be processed (which processing programm)
+
+4. Q. - When we use attribute 'size'?
+    A. - Sets the size of input elements
+
+5. Q. - What do <input type='reset'>?
+    A. - Resets all form data to default state
+
+6. Q. - When we use attribute 'step'?
+    A. - Post: sends encripted form data to the server. Get: sends encripted form data to the server.
+
+
+7. Q. - When we use get & post HTTP methods?
+    A. - Post sends encripted form data to the server. Get sends open form data to the server.
+
+*
+8. Q. - Tell in detail about the form elemente <datalist>
+    A. - This element whith <option> element makes the lists of data that can be checked by user. One or more elements of list can be selected.
+
+9. Q. - Tell in detail about the form elemente <textarea>
+    A. - Makes text form for user comments or sending some reviev or feedback
+
+10. Q. - Tell in detail about the form elemente <select>
+    A. - Like the <datalist> this element whith <option> element makes the lists of data that can be selected by user. Only one element of list can be selected.
+
+11. Q. - Tell in detail about the form elemente <tr>
+    A. - Defines a row of cells in a table.
+
+12. Q. - Tell in detail about the form elemente <output>
+    A. - 
+
+13. Q. - What's the difference between <label> & <legend>?
+    A. - 
