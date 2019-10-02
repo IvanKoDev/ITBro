@@ -37,7 +37,7 @@
     A. - Defines a row of cells in a table.
 
 12. Q. - Tell in detail about the form elemente <output>
-    A. - 
+    A. - Shows the results of the user actions or other web page actions.
 
 13. Q. - What's the difference between <label> & <legend>?
-    A. - 
+    A. - <label> is the separate tag ther marks few elements of Html page. <legend> marks just <fildset> element.
