@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ВОЛОНТЕРСЬКА ПІДТРИМКА</title>
+</head>
+
+<body>
+    <header>
+        <h1 align="center">
+            ВОЛОНТЕРСЬКА ПІДТРИМКА
+        </h1>
+    </header>
+    <hr>
+    <main>
+        <section>
+
+                <form id="support" name="support_request" action="" method="POST">
+                        <header>
+                            <h2 class="sq-title" align="center">
+                                Надіслати запит на підтримку
+                            </h2>
+                        </header>
+                        <fieldset>
+                            <legend>
+                                USER PERSONAL DATA
+                            </legend>
+        
+                            <br>
+                            <label>
+                                Your authentication:
+                            </label>
+                            <input pattern="#[0-9A-Fa-f]{6}" value="Fool Name" required type="text" name="name">
+                            <label>
+                                -
+                            </label>
+                            <input required placeholder="location" type="text" name="location">
+                            <input required placeholder="rank" type="text" name="rank">
+                            <input required placeholder="position" type="text" name="position">
+                            <input required placeholder="email" type="email" name="email">
+                            <input required placeholder="phone" type="tel" name="phone">
+                            <br>
+                            <br>
+                            <fieldset>
+                                <legend>
+                                    Your Unit:
+                                </legend>
+        
+                                <input type="radio" name="unit" value="55 ОМБр">
+                                <label>
+                                    - 30 ОМБр,
+                                </label>
+                                <input type="radio" name="unit" value="55 ОАБр">
+                                <label>
+                                    - 55 ОАБр,
+                                </label>
+                                <input type="radio" name="unit" value="80 ОДШБр">
+                                <label>
+                                    - 80 ОДШБр,
+                                </label>
+                                <input type="radio" name="unit" value="24 ОМБр">
+                                <label>
+                                    - 24 ОМБр,
+                                </label>
+                                <input type="radio" name="unit" value="128 ОГШБр">
+                                <label>
+                                    - 128 ОГШБр,
+                                </label>
+                                <input type="radio" name="unit" value="93 ОМБр">
+                                <label>
+                                    - 93 ОМБр
+                                </label>
+                            </fieldset>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>
+                                SELECT THE KINDS OF SUPPORT THAT YOUR UNIT NEEDS
+                            </legend>
+        
+                            <fieldset>
+                                <legend>
+                                    goods
+                                </legend>
+        
+                                <input type="checkbox" name="support" value="food">
+                                <label>
+                                    - food,
+                                </label>
+                                <input type="checkbox" name="support" value="ammunition">
+                                <label>
+                                    - ammunition,
+                                </label>
+                                <input type="checkbox" name="support" value="armor">
+                                <label>
+                                    - armor
+                                </label>
+                                <br>
+                                <br>
+                                <select name="equipment" value="equipment" multiple size="8">
+                                    <optgroup label="clothes">
+                                        <option value="shoose">
+                                            shoose
+                                        </option>
+                                        <option value="pants">
+                                            pants
+                                        </option>
+                                        <option value="shirt">
+                                            shirt
+                                        </option>
+                                        <option value="socks">
+                                            socks
+                                        </option>
+                                    </optgroup>
+                                    <optgroup label="tools">
+                                        <option value="screws">
+                                            screws
+                                        </option>
+                                        <option value="screwdrivers">
+                                            screwdrivers
+                                        </option>
+                                        <option value="batteries">
+                                            batteries
+                                        </option>
+                                        <option value="wires">
+                                            wires
+                                        </option>
+                                    </optgroup>
+                                    <option value="AC/DC generator">
+                                        AC/DC generator
+                                    </option>
+                                </select>
+                                <label>
+                                    - equipment
+                                </label>
+                                <br>
+                                <br>
+                                <select name="medicine" value="medicine" multiple size="3">
+                                    <option value="nalbufin">
+                                        nalbufin
+                                    </option>
+                                    <option value="ketanov">
+                                        ketanov
+                                    </option>
+                                    <option value="IPP">
+                                        IPP
+                                    </option>
+                                </select>
+                                <label>
+                                    - medicine
+                                </label>
+                            </fieldset>
+                            <br>
+                            <fieldset>
+                                <legend>
+                                    services
+                                </legend>
+        
+                                <input type="checkbox" name="support" value="fire">
+                                <label>
+                                    - fire,
+                                </label>
+                                <input type="checkbox" name="support" value="troopers">
+                                <label>
+                                    - troopers,
+                                </label>
+                                <input type="checkbox" name="support" value="medic">
+                                <label>
+                                    - medic,
+                                </label>
+                                <input type="checkbox" name="support" value="transport">
+                                <label>
+                                    - transport,
+                                </label>
+                                <input type="checkbox" name="support" value="evacuation">
+                                <label>
+                                    - evacuation
+                                </label>
+                            </fieldset>
+                            <br>
+                            <input type="checkbox" name="support" value="other support...">
+                            <label>
+                                - other support...
+                            </label>
+                            <input placeholder="other support..." type="text" name="other">
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>
+                                Write comments here
+                            </legend>
+                            <textarea title="Please, be shorter. (only 99 simbols)" maxlength="99" name="support_comments"
+                                id="comments" cols="100" rows="4">
+        
+                        </textarea>
+                            <br>
+                            <br>
+                            <label>
+                                email
+                            </label>
+                            <input type="email" name="email">
+                            <label>
+                                phone
+                            </label>
+                            <input type="tel" name="photo">
+                        </fieldset>
+                        <br>
+                        <button type="submit" value="send">
+                            Send support request
+                        </button>
+                        <button type="reset" value="reset">
+                            Reset data
+                        </button>
+                    </form>
+        
+
+        </section>
+    </main>
+    <hr>
+
+    <footer>
+        <section>
+            <span>
+                Всі права захищено (С)
+            </span>
+        </section>
+    </footer>
+
+</body>
+
+</html>
