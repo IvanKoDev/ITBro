@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Карта танкового бою</title>
+	<title>Вибери собі тачку</title>
 </head>
 
 <body>
@@ -13,71 +13,136 @@
 	<header>
 		<div align="center">
 			<h1 class="page-title" align="center">
-				Карта танкового бою
+				Вибери собі тачку
 			</h1>
 		</div>
 	</header>
 
 	<main>
-		<section class="content-table">
-			<table class="battle-map" align="center" border="0px" cellpadding="0" cellspacing="0">
-				<tbody align="center">
-					<!-- row-1 -->
-					<tr>
-						<td><img src="media/s" alt="фото сержанта Гуцика" width="40" height="60"></td>
-					</tr>
-					<!-- /row-1 -->
-					<!-- row-2 -->
-					<tr>
-					</tr>
-					<!-- /row-2 -->
-					<!-- row-3 -->
-					<tr>
-					</tr>
-					<!-- /row-3 -->
-					<!-- row-4 -->
-					<tr>
-					</tr>
-					<!-- /row-4 -->
-					<!-- row-5 -->
-					<tr>
-					</tr>
-					<!-- /row-5 -->
-					<!-- row-6 -->
-					<tr>
-					</tr>
-					<!-- /row-6 -->
-					<!-- row-7 -->
-					<tr>
-					</tr>
-					<!-- /row-7 -->
-					<!-- row-8 -->
-					<tr>
-					</tr>
-					<!-- /row-8 -->
-					<!-- row-9 -->
-					<tr>
-					</tr>
-					<!-- /row-9 -->
-					<!-- row-10 -->
-					<tr>
-					</tr>
-					<!-- /row-10 -->
-					<!-- row-11 -->
-					<tr>
-					</tr>
-					<!-- /row-11 -->
-					<!-- row-12 -->
-					<tr>
-					</tr>
-					<!-- /row-12 -->
-					<!-- row-13 -->
-					<tr>
-					</tr>
-					<!-- /row-13 -->
-				</tbody>
-			</table>
-		</section>
+		<form class="content-form">
+			<fieldset>
+				<legend>
+					Виберіть авто та країну походження
+				</legend>
+
+				<label>
+					Тип кузова:
+				</label>
+				<select name="type" value="type" multiple size="4">
+					<option value="sedan">
+						Седан
+					</option>
+					<option value="universal">
+						Універсал
+					</option>
+					<option value="bus">
+						Бус
+					</option>
+					<option value="parketnyk">
+						Паркетник
+					</option>
+				</select>
+				<br>
+				<br>
+
+				<label>
+					Марка:
+				</label>
+				<select name="brand" value="brand" multiple size="4">
+					<option value="volksWagen">
+						VolksWagen
+					</option>
+					<option value="renault">
+						Renault
+					</option>
+					<option value="peugeot">
+						Peugeot
+					</option>
+					<option value="mercedes">
+						Mercedes
+					</option>
+					<option value="skoda">
+						Skoda
+					</option>
+				</select>
+				<br>
+				<br>
+
+				<label>
+					Країна:
+				</label>
+				<select name="country" value="country" multiple size="4">
+					<option value="poland">
+						Польща
+					</option>
+					<option value="lituania">
+						Литва
+					</option>
+					<option value="deutch">
+						Німеччина
+					</option>
+					<option value="netherland">
+						Нідерланди
+					</option>
+					<option value="georgia">
+						Грузія
+					</option>
+					<option value="slovak">
+						Словаччина
+					</option>
+					<option value="czech">
+						Чехія
+					</option>
+				</select>
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend>Введіть Ваші персональні дані</legend>
+
+				<input pattern="#[0-9A-Fa-f]{6}" placeholder="Петренко Петро Петрович" required type="text" name="name">
+				<label>
+					- ПІБ
+				</label>
+				<br>
+				<br>
+
+				<input required placeholder="(***)***-**-**" type="tel" name="phone">
+				<label>
+					- Телефон
+				</label>
+				<br>
+				<br>
+
+				<input required placeholder="№ АА-123456" type="text" name="document">
+				<label>
+					- № посвідчення УБД
+				</label>
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend>
+					Чи завозили ви раніше авто з Європи:
+				</legend>
+				<label>
+					так -
+				</label>
+				<input type="radio" name="yes_no" value="yes">
+				<label>
+					ні -
+				</label>
+				<input type="radio" name="yes_no" value="no">
+				</div>
+			</fieldset>
+			<br>
+			<div class="button">
+				<button type="submit" value="send">
+					Відправити
+				</button>
+				<button type="reset" value="reset">
+					Скинути
+				</button>
+			</div>
+		</form>
 	</main>
 	<hr>
 	<footer>
