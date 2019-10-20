@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Служба за контрактом</title>
+</head>
+
+<body>
+
+	<header>
+		<div align="center">
+			<h1 class="page-title" align="center">
+				Служба за контрактом
+			</h1>
+		</div>
+	</header>
+
+	<main>
+		<form action="" class="area-owner">
+			<header>
+				<h2 align="center">
+					Форма подачі заявки на проходження служби за контрактом
+				</h2>
+			</header>
+
+			<fieldset>
+				<legend>Хочу приєднатись до ЗСУ</legend>
+
+				<label>
+					ПІБ заявника:
+				</label>
+				<input pattern="#[0-9A-Fa-f]{6}" placeholder="Петренко Петро Петрович" required type="text" name="name">
+				<label>
+					Вік:
+				</label>
+				<input required placeholder="" type="text" name="area">
+				<br>
+				<br>
+				<label>
+					Завантажте фото Вашого посвідчення УБД:
+				</label>
+				<input type="file" name="photo">
+				<br>
+				<br>
+				<div class="button">
+					<button type="submit" value="send">
+						Відправити
+					</button>
+					<button type="reset" value="reset">
+						Очистити форму
+					</button>
+				</div>
+			</fieldset>
+		</form>
+	</main>
+	<hr>
+	<footer>
+		<section class="footer-copyright">
+			<span>
+				Всі права захищено (С). ITBro-Students. Ivan Kolesnyk
+			</span>
+		</section>
+	</footer>
+</body>
+
+</html>
