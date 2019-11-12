@@ -12,8 +12,22 @@
 	<link rel="stylesheet" href="style.css">
 
 	<style>
-		h1 {
+		header {
+			background-color: floralwhite;
+			padding: 10px 200px 30px 200px;
+			/* background-clip: border-box;
+			margin: 0;
+			padding: 0; */
+
+		}
+
+		body {
+			padding: 30px 200px 30px 200px;
+			margin: 0;
+			padding: 0;
 			color: dimgray;
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			font-size: 24px;
 		}
 	</style>
 
@@ -22,67 +36,69 @@
 <body>
 
 	<!--header-->
-	<header class="sq-header" role="heading">
-		<h1 class="sq-main-title" align="center">
-			30-та окрема механізована бригада імені князя Костянтина Острозького
-		</h1>
-		<div align="center">
-			<img src="media/30_ombr.svg" alt="30-та ОМБр" width="248" height="354">
-		</div>
-		<span role="contentinfo">
-			30-та окрема механізована бригада імені князя Костянтина Острозького (30 ОМБр, в/ч А0409, пп В2731) —
-			формування механізованих військ у складі Сухопутних військ Збройних сил України. За організаційно-штатною
-			структурою входить до складу ОК «Північ». Під час війни на сході України бригада у 2014 році вела важкі
-			бойові дії в Секторі «Д». З 2018 року бригада носить ім'я князя Костянтина Острозького — полководця Великого
-			князівства Литовського середніх віків.
-		</span>
-		<nav class="sq-nav" role="navigation">
-			<ul class="sq-main-menu">
-				<li>
+	<div id="header">
+		<header class="header">
+			<div class="main-menu">
+				<div class="main-menu-item">
 					<a href="#history">
 						Історична довідка та бойовий шлях
 					</a>
-				</li>
-				<li>
+				</div>
+				<div class="main-menu-item">
 					<a href="#structure">
 						Структура
 					</a>
-				</li>
-				<li>
+				</div>
+				<div class="main-menu-item">
 					<a href="#traditions">
 						Традиції
 					</a>
-				</li>
-				<li>
+				</div>
+				<div class="main-menu-item">
 					<a href="#contacts">
 						Контакти
 					</a>
-				</li>
-			</ul>
-		</nav>
-		<hr>
-		<hr>
-		<hr>
-	</header>
+				</div>
+			</div>
+			<hr>
+			<div class="intro">
+				<h1 class="intro-title">
+					30-та окрема механізована бригада <br> імені князя Костянтина Острозького
+				</h1>
+				<div class="intro-text">
+					30-та окрема механізована бригада імені князя Костянтина Острозького (30 ОМБр, в/ч А0409, пп В2731)
+					—
+					формування механізованих військ у складі Сухопутних військ Збройних сил України. За
+					організаційно-штатною
+					структурою входить до складу ОК «Північ». Під час війни на сході України бригада у 2014 році вела
+					важкі
+					бойові дії в Секторі «Д». З 2018 року бригада носить ім'я князя Костянтина Острозького — полководця
+					Великого
+					князівства Литовського середніх віків.
+				</div>
+			</div>
+		</header>
+	</div>
 
 	<!--main-->
-	<main class="sq-container" role="main">
+	<main class="container" role="main">
 
 		<!-- articles section -->
 		<section>
 			<section id="history">
-				<article class="sq-content" role="content-history">
-					<header>
-						<h2 class="sq-title" align="center">
+				<article class="content" role="content-history">
+					<div>
+						<h2 class="title">
 							Історична довідка та бойовий шлях
 						</h2>
-						<p align="center">
+						<p>
 							<img src="media/head_image.jpg">
 						</p>
-					</header>
-					<main>
-						<p class="sq-text">
-							30 окрема механізована бригада ім князя Костянтина Острозького - військова частина у складі
+					</div>
+					<div>
+						<p class="text">
+							30-та окрема механізована бригада ім князя Костянтина Острозького - військова частина у
+							складі
 							Сухопутних військ Збройних Сил України.
 							<br>Пункт постійної дислокації бригади знаходиться в місті Новоград-Волинський, Житомирської
 							області.
@@ -177,19 +193,19 @@
 							Нагороджений
 							орденом Богдана Хмельницького III ступеня та відзнакою МОУ «Доблесть і честь».
 						</p>
-					</main>
+					</div>
 				</article>
 			</section>
 			<hr>
 			<section id="structure">
-				<article class="sq-content" role="content-structure">
+				<article class="content" role="content-structure">
 					<header>
-						<h2 class="sq-title" align="center">
+						<h2 class="title" align="center">
 							Структура
 						</h2>
 					</header>
 					<main>
-						<p class="sq-text">
+						<p class="text">
 							<p>Восени 2014 року бригаді було підпорядковано 10-й окремий мотопіхотний батальйон (нині в
 								складі 59 ОМПБр), а пізніше 2-й окремий мотопіхотний батальйон «Горинь».
 								управління (штаб)</p>
@@ -227,14 +243,14 @@
 			</section>
 			<hr>
 			<section id="traditions">
-				<article class="sq-content" role="content-traditions">
+				<article class="content" role="content-traditions">
 					<header>
-						<h2 class="sq-title" align="center">
+						<h2 class="title" align="center">
 							Традиції
 						</h2>
 					</header>
 					<main>
-						<p class="sq-text">
+						<p class="text">
 							До 2018 року бригада носила почесні назви Новоград-Волинська Рівненська.
 							<br>Указом Президента України від 22 серпня 2018 року № 232/2018 бригада дістала ім'я князя
 							Костянтина
@@ -243,7 +259,7 @@
 						<h3>
 							Символіка
 						</h3>
-						<p class="sq-text">
+						<p class="text">
 							Символіка бригади, запропонована 2018 року, нестиме символи князя Костянтина Острозького.
 							<br>У прапорі бригади відображено символіку фортеці князя Острозького. Фортеця була
 							розташована у
@@ -264,7 +280,7 @@
 	<main>
 		<form name="support_request" action="" method="POST">
 			<header>
-				<h2 class="sq-title" align="center">
+				<h2 class="title" align="center">
 					Надіслати запит на підтримку
 				</h2>
 			</header>
@@ -462,30 +478,30 @@
 	<hr>
 
 	<!--footer-->
-	<footer class="sq-footer" role="footer">
+	<footer class="footer" role="footer">
 		<section id="contacts">
 			<h2 align="center">
 				Контакти
 			</h2>
 			<ul role="contacts">
 				<li>
-					<a class="sq-link" href="https://www.facebook.com/30brigade/">
+					<a class="link" href="https://www.facebook.com/30brigade/">
 						Фейсбук
 					</a>
 				</li>
 				<li>
-					<a class="sq-link"
+					<a class="link"
 						href="https://m.me/30brigade?fbclid=IwAR0gMBfrVgg6gJHr3blr8iGwnQ7mE-cgFIcNzuAD7W-iSj7lB_nUa3K-Brs">
 						Месенджер
 					</a>
 				</li>
 				<li>
-					<a class="sq-link" href="infozsu@ukr.net">
+					<a class="link" href="infozsu@ukr.net">
 						e-mail
 					</a>
 				</li>
 			</ul>
-			<span class="sq-copyright">
+			<span class="copyright">
 				Всі права захищено (С)
 			</span>
 		</section>
