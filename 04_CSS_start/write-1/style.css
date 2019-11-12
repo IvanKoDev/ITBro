@@ -1,1 +1,47 @@
+.main-menu {
+	margin: 0;
+	font-size: 18px;
+	text-align: center;
+}
 
+.main-menu-item {
+	display: inline-block;
+	padding: 20px;
+}
+
+.intro {
+	background-image: url(media/30_ombr.svg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-origin: border-box;
+	background-position: center center;
+	background-size: contain;
+	/* opacity: 0.3; */
+}
+
+.intro-title {
+	text-align: center;
+	padding: 20px 20px 10px;
+}
+
+.intro-text {
+	padding: 10px 20px 20px;
+}
+
+h1 {
+	color: dimgray;
+	margin: 0;
+	padding: 30px 0px 30px 0px;
+	font-size: 36px;
+}
+
+h2 {
+	color: dimgray;
+	margin: 0;
+	padding: 30px 0px 30px 0px;
+	font-size: 32px;
+}
+
+hr {
+	margin: 10px 100px 30px;
+}
