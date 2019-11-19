@@ -1,1 +1,97 @@
+/* ALL DOCUMENT ===================================== */
 
+body {
+	font-family: monospace;
+	margin: 0px;
+	background-color: khaki;
+}
+
+h1 {
+	/* display: inline-block; */
+	text-align: center;
+	font-size: 32px;
+	color: orange;
+	margin: 20px 0px 0px 0px
+}
+
+/* NAVIGATION ======================================= */
+
+.navigation-block {
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background-color: khaki;
+}
+
+.navbar {
+	text-align: center;
+}
+
+.navbar a{
+	/* display: inline-block; */
+	font-size: 20px;
+	margin: 0px;
+	padding: 10px 20px;
+}
+
+.main-head {
+	text-align: center;
+}
+
+.main-head p {
+	display: inline-block;
+	font-size: 1.5em;
+	padding: 10px 10px;
+	margin: 10px -4px 0px;
+	width: 23.5%;
+	border-bottom: 1px solid;
+}
+
+/* EXAMPLES ========================================= */
+
+section {
+	text-align: center;
+
+}
+
+.example-header p {
+	font-size: 1.5em;
+	text-align: center;
+	margin: 10px -4px 0px;
+}
+
+.example-body p {
+	display: inline-block;
+	list-style: none;
+	vertical-align: top;
+	/* align-self: auto; */
+	font-size: 1.5em;
+	padding: 10px 10px;
+	margin: 10px -4px 0px;
+	width: 23.5%;
+	height: 5em;
+}
+
+main {
+	margin: 145px 0px 0px 0px;
+	/* margin-top: 500px; */
+}
+
+p.annotation {
+	background: lightyellow;
+}
+
+p.css {
+	background: lightblue;
+}
+
+p.html {
+	background: lightsalmon;
+}
+
+p.result {
+	background: white;
+}
