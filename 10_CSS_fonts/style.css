@@ -44,7 +44,7 @@ article {
 #yes-01-bulb {
 	position: absolute;
 	left: 120px;
-	top: 5px;
+	top: 132px;
 	padding: 20px;
 }
 
@@ -57,6 +57,6 @@ article {
 #no-01-bulb {
 	position: absolute;
 	left: 165px;
-	top: 5px;
+	top: 132px;
 	padding: 20px;
 }
