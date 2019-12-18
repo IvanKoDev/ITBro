@@ -1,0 +1,62 @@
+body {
+	background-color: black;
+	color: #fff;
+}
+
+article {
+	color: #fff;
+}
+
+.article {
+	position: absolute;
+	width: 300px;
+	font-size: 14px;
+}
+.article-head {
+
+	color: orange;
+
+}
+
+#baskerville {
+	position: relative;
+	width: 75px;
+	border: 1px black solid;
+	border-color: #fff;
+	padding: 15px;
+	top: 120px;
+}
+
+.ansver-bulb {
+	border: 1px black solid;
+	border-color: #fff;
+	padding: 10px;
+	margin: 0px;
+	border-radius: 200px;
+}
+
+#yes-01-text {
+	position: absolute;
+	left: 9px;
+	top: 10px;
+}
+
+#yes-01-bulb {
+	position: absolute;
+	left: 120px;
+	top: 5px;
+	padding: 20px;
+}
+
+#no-01-text {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+}
+
+#no-01-bulb {
+	position: absolute;
+	left: 165px;
+	top: 5px;
+	padding: 20px;
+}
