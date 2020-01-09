@@ -1,0 +1,29 @@
+*,
+::before,
+::after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+::selection {
+    background: #05A5FF;
+    color: #FFFF00;
+	text-shadow: none;
+}
+
+.ptsr {
+	font-family: 'pt_sansregular';
+}
+
+.ptsb {
+	font-family: 'pt_sansbold';
+}
+
+.ptsnr {
+	font-family: 'pt_sans_narrowregular';
+}
+
+.ptsnb {
+	font-family: 'pt_sans_narrowbold';
+}

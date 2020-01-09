@@ -1,0 +1,124 @@
+.site-header {
+	display: flex;
+	justify-content: center;
+	/* margin-left: auto;
+	margin-right: auto; */
+	/* background-color: #004064 #0072b0; */
+	background-image: radial-gradient(circle, #0072b0 0%, #004064 50%);
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	width: 980px;
+	margin: 12px 0px 17px 0px;
+	padding: 0px 5px;
+}
+
+.title-container {
+	display: flex;
+	align-items: flex-end;
+}
+
+#logo {
+	width: 114px;
+	height: 114px;
+	margin-right: 8px;
+}
+
+.title {
+	width: 386px;
+	height: 84px;
+	margin-bottom: -5px;
+}
+
+.tools {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-right: 3px;
+}
+
+#search {
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+	margin-bottom: 6px;
+	background-color: #256aa0;
+	width: 295px;
+	height: 30px;
+	border: 0px;
+	border-radius: 4px 4px 4px 4px;
+}
+
+#search-input input {
+	border: 0px;
+	border-radius: 4px 0px 0px 4px;
+	width: 257px;
+	height: 30px;
+	padding: 1px 44px 1px 12px;
+	background-color: #256aa0;
+	font-family: 'pt_sansregular';
+	font-size: 16px;
+	color: white;
+}
+
+#search-button {
+	border: 0px;
+	border-radius: 4px;
+	width: 40px;
+	height: 30px;
+	background-color: #256aa0;
+	background-image: url('../media/icons/search-button.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	cursor: pointer;
+	transition: background-color .2s;
+}
+
+#search-button:hover {
+	background-color: #46A5F0;
+
+}
+
+
+.site-language {
+	padding-bottom: 2px;
+	text-decoration: none;
+	color: white;
+	font-family: 'pt_sansregular';
+	font-size: 14px;
+	border-bottom: 1px dotted #ffffff;
+}
+
+.site-nav {
+	background-color: #272727;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.site-nav nav{
+	width: 980px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/* align-items: stretch; */
+}
+
+.site-nav nav a {
+	color: white;
+	font-family: 'pt_sans_narrowregular';
+	font-size: 16px;
+	/* text-align: center; */
+	text-decoration: none;
+}
+
+.site-nav nav a:hover {
+	color: #aaa;
+}
