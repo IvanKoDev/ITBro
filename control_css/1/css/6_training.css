@@ -1,0 +1,67 @@
+.training-wrapper {
+	width: 1225px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 113px;
+}
+
+.surf-training {
+	display: flex;
+	margin-left: 68px;
+	margin-bottom: 121px;
+}
+
+.surf-training_2 {
+	display: flex;
+	margin-left: 217px;
+}
+
+/* text============================= */
+.training-text {
+	margin-right: 45px;
+}
+
+.training-image_2 {
+	margin-right: 76px;
+}
+
+.number {
+	position: relative;
+	color: #f9f9f9;
+	font-family: 'league_spartan-bold';
+	font-size: 130px;
+	font-weight: 700;
+	letter-spacing: 13px;
+}
+
+.training-title {
+	position: absolute;
+	color: #333333;
+	font-family: 'playfair_display-bold';
+	font-size: 43px;
+	font-weight: 700;
+	letter-spacing: 0.42px;
+	left: 0;
+	bottom: 0;
+	margin-bottom: 8px;
+}
+
+.title-underline {
+	width: 23px;
+	height: 2px;
+	background-color: #5da8ef;
+	margin-bottom: 30px;
+}
+
+.text {
+	width: 350px;
+	height: 83px;
+	opacity: 0.65;
+	color: #616161;
+	font-family: 'poppins-light';
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 0.35px;
+	margin-bottom: 87px;
+}

@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	z-index: 10;
+}
+
+.video-wrapper {
+	width: 1225px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 190px;
+	z-index: 10;
+}
+
+/* description-item ========== */
+
+.description-item {
+	position: relative;
+	top: -43px;
+}
+
+.description-item img {
+	margin-bottom: 55px;
+}
+
+.video-description {
+	position: absolute;
+	left: 117px;
+}
+
+.video-description-text {
+	font-family: 'poppins-light';
+	margin-bottom: 30px;
+	letter-spacing: 0.35px;
+	line-height: 24px;
+	color: #616161;
+	opacity: 0.65;
+	font-size: 14px;
+}
+
+.read-more {
+	font-family: 'league_spartan-bold';
+	font-size: 9.5px;
+	letter-spacing: 5.4px;
+	text-transform: uppercase;
+	color: #333333;
+	text-decoration: none;
+}
+
+.underline {
+	width: 102px;
+	height: 20px;
+	border-top: 2px solid #5da8ef;
+	opacity: 0.7;
+	margin-top: 7px;
+}
+/* !description-item ========== */
+
+/* video-item ========== */
+.video-item {
+	position: relative;
+	width: 706px;
+	height: 549px;
+	left: -95px;
+	box-shadow: 0px 0px 60px 15px rgba(0, 0, 0, 0.2);
+	
+}
+
+.play-button {
+	position: absolute;
+	width: 68px;
+	height: 68px;
+	left: 50%;
+	top: 50%;
+	margin-left: -34px;
+	margin-top: -34px;
+}
+/* !video-item ========== */

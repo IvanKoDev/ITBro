@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+}
+
+.quote-wrapper {
+	text-align: center;
+	margin-top: 190px;
+}
+
+.quote {
+	font-family: 'playfair_display-regular';
+	font-size: 26px;
+	color: #333333;
+	letter-spacing: 0.26px;
+	line-height: 38px;
+	opacity: 0.9;
+	margin-bottom: 25px;
+}
+
+.author {
+	font-family: 'league_spartan-bold';
+	font-size: 9.5px;
+	color: #333333;
+	text-transform: uppercase;
+	letter-spacing: 5.4px;
+	opacity: 0.9;
+	margin-bottom: 58px;
+}
+
+.blocks-separator {
+	border-left: 2px solid #5da8ef;
+	width: 1px;
+	height: 100px;
+	margin-bottom: 105px;
+	margin-left: auto;
+	margin-right: auto;
+}

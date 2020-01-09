@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+}
+.footer-wrapper {
+	width: 1225px;
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 97px;
+}
+
+.social-icons a{
+	margin-right: 25px;
+}
+
+.social-icons a:last-child{
+	margin-right: 0px;
+}
+
+

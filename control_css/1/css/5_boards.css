@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+}
+
+.boards-wrapper {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 5;
+}
+
+/* boards-background ========== */
+.boards-wrapper::before{
+	position: absolute;
+	content: "";
+	top: -538px;
+	left: 0;
+	width: 1440px;
+	height: 100vh;
+	background: url('../media/bg1.jpeg');
+	z-index: -1;
+}
+/* !boards-background ========== */
+
+/* boards-title ========== */
+.boards-pre-title {
+	font-family: 'league_spartan-bold';
+	font-size: 9.5px;
+	color: #5da8ef;
+	text-transform: uppercase;
+	letter-spacing: 5.4px;
+	margin-bottom: 5px;
+	margin-left: 8px;
+}
+
+.boards-title {
+	font-family: 'playfair_display-bold';
+	font-size: 42px;
+	color: #0b0c11;
+	letter-spacing: 0.42px;
+	margin: 0;
+	margin-bottom: 155px;
+	margin-left: 2px;
+}
+/* !boards-title =============== */
+
+/* board-block ================= */
+.boards-slider {
+	display: flex;
+	align-items: center;
+	margin-bottom: 82px;
+	/* margin-right: 25px; */
+}
+
+.board-blocks {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 71px;
+	margin-right: 170px;
+}
+
+.board-block {
+	position: relative;
+	display: flex;
+	width: 250px;
+	height: 320px;
+	background-color: #ececec;
+	justify-content: center;
+	/* margin-left: 50px; */
+	margin-right: 187px;
+}
+
+.board-block:last-child {
+	margin-right: 0;
+}
+
+
+.board-block img {
+	position: absolute;
+	width: auto;
+	height: 405px;
+	filter: drop-shadow(-4px -30px 65px rgba(11, 12, 17, 0.20));
+	margin-left: auto;
+	margin-right: auto;
+	top: -113px;
+}
+
+/* text-block ================== */
+.text-block {
+	position: absolute;
+	top: 83px;
+	left: 216px;
+}
+
+.boardtype {
+	width: 87px;
+	height: 9px;
+	color: #7a7a7a;
+	font-family: 'poppins-light';
+	font-size: 12px;
+	/* font-weight: 300; */
+	text-transform: uppercase;
+	letter-spacing: 2.4px;
+	margin-bottom: 9px;
+}
+
+.boardname {
+	width: 200px;
+	height: 21px;
+	color: #333333;
+	font-family: 'playfair_display-regular';
+	font-size: 27px;
+	/* font-weight: 400; */
+	letter-spacing: 0.26px;
+	margin-bottom: 38px;
+}
+
+.boardprice {
+	width: 49px;
+	height: 18px;
+	color: #ce60a8;
+	font-family: 'poppins-light';
+	font-size: 21px;
+	/* font-weight: 300; */
+	letter-spacing: -0.1px;
+	margin-left: 55px;
+	margin-bottom: 4px;
+}
+
+.buy-button {
+	width: 30px;
+	height: 8px;
+	color: #333333;
+	font-family: 'league_spartan-bold';
+	font-size: 9.5px;
+	/* font-weight: 700; */
+	text-transform: uppercase;
+	letter-spacing: 5.4px;
+	text-decoration: none;
+	margin-left: 57px;
+}
+/* !text-block ================== */
+
+.show-all {
+	font-family: 'league_spartan-bold';
+	font-size: 9.5px;
+	letter-spacing: 5.4px;
+	text-transform: uppercase;
+	color: #333333;
+	text-decoration: none;
+	margin-bottom: 7px;
+}
+
+.underline-2 {
+	width: 90px;
+	height: 2px;
+	border-top: 2px solid #5da8ef;
+	opacity: 0.7;
+	margin: 0;
+	margin-right: 6px;
+	margin-bottom: 173px;
+}

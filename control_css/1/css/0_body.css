@@ -1,0 +1,12 @@
+body {
+	width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'league_spartan-bold';
+	color: #0b0c11;
+
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, white 0);
+	background-size: 306px;
+	background-position-x: -75px;
+	/* z-index: 1; */
+}

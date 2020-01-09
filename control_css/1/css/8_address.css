@@ -1,0 +1,50 @@
+.address-wrapper {
+	display: flex;
+	align-items: center;
+	margin-bottom: 98px;
+}
+
+.address-image {
+	margin: 0;
+}
+
+.address-text {
+	margin-left: 44px;
+}
+
+.our-camp {
+	opacity: 0.27;
+	color: #0b0c11;
+	font-family: 'league_spartan-bold';
+	font-size: 9px;
+	text-transform: uppercase;
+	letter-spacing: 5.58px;
+	margin-bottom: 50px;
+}
+
+.address {
+	color: #333333;
+	font-family: 'playfair_display-bold';
+	font-size: 32px;
+	line-height: 46px;
+	letter-spacing: 0.32px;
+	margin-bottom: 50px;
+	margin-left: 48px;
+}
+
+.get-in-touch {
+	color: #5da8ef;
+	font-family: 'league_spartan-bold';
+	font-size: 9px;
+	text-transform: uppercase;
+	letter-spacing: 5.4px;
+	text-decoration: none;
+}
+
+.touch-underline {
+	width: 125px;
+	height: 2px;
+	background-color: #5da8ef;
+	opacity: 0.7;
+	margin-top: 8px;	
+}

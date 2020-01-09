@@ -1,0 +1,83 @@
+.title-wrapper {
+	position: relative;
+	width: 1225px;
+	height: 572px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* title text========================== */
+
+.title-text {
+	z-index: 5;
+}
+
+.pre-title {
+	font-family: 'league_spartan-bold';
+	font-size: 9.5px;
+	color: #5da8ef;
+	text-transform: uppercase;
+	letter-spacing: 5.4px;
+	/* line-height: 66px; */
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 18px;
+}
+
+.title {
+	font-family: 'playfair_display-bold';
+	font-size: 61px;
+	color: #0b0c11;
+	/* line-height: 64px; */
+	/* letter-spacing: 0.1px; */
+	margin: 0;
+	margin-bottom: 8px;
+}
+
+.title-description {
+	font-family: 'poppins-light';
+	font-size: 14px;
+	color: #8f8f8f;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+}
+
+/* title gallery ======================== */
+
+.title-gallery {
+	z-index: 1;
+}
+
+.gallery-item {
+	width: 1016px;
+	height: 572px;
+	z-index: 5;
+	box-shadow: -20px 30px 60px 15px rgba(0, 0, 0, 0.15);
+	position: absolute;
+	top: 0px;
+	left: 207px;
+}
+
+.gallery-scroller {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	top: 555px;
+	font-family: 'league_spartan-bold';
+	font-size: 10.8px;
+	align-items: center;
+	width: 80px;
+}
+
+.item-number_active {
+	color: #5da8ef;
+	letter-spacing: 2px;
+}
+
+.item-number_separator {
+	color: #ebebeb;
+	letter-spacing: 2px;
+}
