@@ -134,9 +134,9 @@ nav a:last-child::after {
 /* TABS ======================================== */
 
 .tabs {
-	background: #191828;
+	background: white;
 	/* background: #efedef; */
-	color: #efedef;
+	color: black;
 	/* color: #191828; */
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 	font-size: 22px;
@@ -154,7 +154,7 @@ nav a:last-child::after {
 
 .corner {
 	background: #fff;
-	border: 0px solid #ff2b06;
+	border: 1px solid #ff2b06;
 	color: #ff2b06;
 	display: block;
 	font-size: 16px;
